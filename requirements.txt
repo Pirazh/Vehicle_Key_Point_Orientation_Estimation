@@ -1,0 +1,8 @@
+tqdm==4.19.4
+numpy==1.12.1
+scipy==1.1.0
+matplotlib==2.2.3
+torch==0.4.1
+scikit_image==0.14.0
+skimage==0.0
+torchvision==0.4.0

@@ -88,12 +88,12 @@ Note that the localization MSE is calculated in 56 * 56 heatmaps. The following 
 
 If you find this repository useful in your research please cite our paper:
 
-
-    @article{khorramshahi2019dual,
-        title={A Dual Path Model With Adaptive Attention For Vehicle Re-Identification},
-        author={Khorramshahi, Pirazh and Kumar, Amit and Peri, Neehar and Rambhatla, Sai Saketh and Chen, Jun-Cheng and Chellappa, Rama},
-        journal={arXiv preprint arXiv:1905.03397},
-        year={2019}
+    @InProceedings{Khorramshahi_2019_ICCV,
+        author = {Khorramshahi, Pirazh and Kumar, Amit and Peri, Neehar and Rambhatla, Sai Saketh and Chen, Jun-Cheng and Chellappa, Rama},
+        title = {A Dual-Path Model With Adaptive Attention for Vehicle Re-Identification},
+        booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+        month = {October},
+        year = {2019}
         }
 
 ## Questions

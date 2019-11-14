@@ -1,6 +1,6 @@
 # Vehicle Key-Point & Orientation Estimation
 
-The repository contains the code for vehicle key-point and Orientation estimation Network proposed in the [*A Dual Path Model With Adaptive Attention For Vehicle Re-Identification*](https://arxiv.org/pdf/1905.03397.pdf) which has been accepted as an **oral presentation** in ICCV 2019. The code for re-identification network does not exist in the repository.
+The repository contains the code for vehicle key-point and Orientation estimation Network proposed in the [*A Dual Path Model With Adaptive Attention For Vehicle Re-Identification*](http://openaccess.thecvf.com/content_ICCV_2019/papers/Khorramshahi_A_Dual-Path_Model_With_Adaptive_Attention_for_Vehicle_Re-Identification_ICCV_2019_paper.pdf) which has been accepted as an **oral presentation** in ICCV 2019. The code for re-identification network does not exist in the repository.
 
 The code for vehicle key-point and orientation estimation has been released to facilitate future research in vehicle alignment, 3d vehicle modeling and vehicle speed estimation.   
 

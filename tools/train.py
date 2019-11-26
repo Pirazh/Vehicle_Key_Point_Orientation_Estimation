@@ -21,7 +21,7 @@ def train(args, net):
 
     # Train Stage 1 for Coarse Heatmap Generation Using Pixel Based Classification
     if args.use_case == 'stage1':
-        params = net.module.parameters() if args.mGPU else net.parameters()
+        params = net.module.parameters() if args.mGPU and (torch.cuda.device_count() > 1) else net.parameters()
         Heatmap_criterion = nn.CrossEntropyLoss(train_set.key_point_distribution.float().cuda())
 
         optimizer = torch.optim.Adam(params, lr=args.lr, weight_decay=args.weight_decay)
@@ -114,7 +114,7 @@ def train(args, net):
 
     # Train Stage 2 for Foarse Heatmap Regression and Orientation Estimation
     elif args.use_case == 'stage2':
-        params = net.module.refinement.parameters() if args.mGPU else net.refinement.parameters()
+        params = net.module.refinement.parameters() if args.mGPU and (torch.cuda.device_count() > 1) else net.refinement.parameters()
         Heatmap_criterion = nn.MSELoss()
         Orientation_criterion = nn.CrossEntropyLoss(train_set.pose_distribution.float().cuda())
 

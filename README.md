@@ -35,7 +35,7 @@ Then you have to download and put the pre-trained model and [Veri-776](https://v
 - Download the pre-trained stage1 & stage2 Key-point models from [here](https://drive.google.com/file/d/1A4A8Xu6RbVHUK6Pq5QSmKQt7jS_p5OKx/view?usp=sharing) and [here](https://drive.google.com/file/d/1jZR1YuDOLiZ3lh0B_CFJQp2aWh-qUU5C/view?usp=sharing) and put them in `./checkpoints/stage1/` and `./checkpoints/stage2/` directories.
 
 ## Testing 
-To test an already trained model, you have to specify the test phase, stage1(*Coarse key-points estimation*)/stage2(*Entire model for fine key-points generation and orientation estimation*) use cases and the path to the trained model. This can be achieved by running the following command:
+To test an already trained model, you have to specify the test phase, stage1(*Coarse key-points estimation*)/stage2(Entire model for fine key-points generation and orientation estimation) use cases and the path to the trained model. This can be achieved by running the following command:
 
 ### Stage1
 
